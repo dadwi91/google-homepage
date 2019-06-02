@@ -1,0 +1,67 @@
+.header {
+    float: right;
+    padding: 10px 20px 10px 10px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.header ul li {
+    padding-left: 10px;
+}
+
+#logo{
+    width: 272px;
+}
+
+.main {
+    text-align:center;
+    padding-top:180px;
+}
+#search-bar{
+    width: 400px;
+    border-radius: 15px;
+    border: 1px grey solid;
+    padding: 5px 5px 5px 50px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+.buttons ul li {
+    text-align:center;
+}
+
+.footer {
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background: #EEE;
+    font-size: 10px;
+    display:inline-block
+}
+
+}
+.l_footcol{
+	position: relative;
+	top: 14px;
+	float: left;
+	margin-left: 14px;
+}
+
+.r_footcol{
+	position: relative;
+	top: 12px;
+	float: right;
+    margin-right: 14px;
+}
+
+.l_footside{
+    margin: 10px;
+}
+
+.r_footside{
+    margin: 10px;
+}
